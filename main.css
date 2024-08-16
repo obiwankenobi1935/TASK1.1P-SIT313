@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family:VastShadow-Regular;
+    color: white;
+}
+
+@font-face{
+    src: url(fonts/Vast_Shadow/VastShadow-Regular.ttf);
+    font-family: VastShadow-Regular;
+}
+
+@font-face{
+    src: url(fonts/Holtwood_One_SC/HoltwoodOneSC-Regular.ttf);
+    font-family: Holtwood_One_SC;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+    padding: 0 5px;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 100%, 28%);
+}
+
+.container{
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 50%;
+    left: 20%;
+    right: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 2vw;
+}
+
+.container:hover .text-overlay {
+    opacity: 1;
+}   
+
+#skulls{
+    width: 100vw;
+    height: auto;
+}
+
+.description{
+    padding: 50px;
+    text-align: center;
+
+}
+
+#homelander{
+    width: 30vw;
+    height: auto;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+hr{
+    width: 20%;
+    text-align: center;
+}
+
+h2{
+    margin: 50px;
+}
+
+h1{
+    margin: 50px;
+    text-align: center;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjusts space between each project */
+}
+  
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.projects img {
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+  
+.projects span {
+    margin-left: 20px; /* Space between image and text */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

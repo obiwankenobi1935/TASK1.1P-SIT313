@@ -37,7 +37,7 @@ body{
 }
 
 .navbar a:hover{
-    background-color: hsl(0, 100%, 28%);
+    background-color: rgb(46, 92, 183);
 }
 
 .container{
@@ -49,7 +49,7 @@ body{
     bottom: 50%;
     left: 20%;
     right: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(46, 92, 183);
     text-align: center;
     padding: 10px;
     opacity: 0;
@@ -96,7 +96,7 @@ h1{
 .projects-list {
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px; /* Adjusts space between each project */
 }
   
 .projects {
@@ -106,13 +106,13 @@ h1{
 }
   
 .projects img {
-    width: 300px; 
+    width: 300px; /* Adjust width as needed */
     height: auto;
-    border-radius: 10px; 
+    border-radius: 10px; /* Optional: adds rounded corners */
 }
   
 .projects span {
-    margin-left: 20px; 
+    margin-left: 20px; /* Space between image and text */
 }
 
 .grid-container {
